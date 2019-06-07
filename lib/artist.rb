@@ -3,7 +3,7 @@ class Artist
  
   @@all = []
  
-  def initialize(name, age)
+  def initialize(name)
     @name = name
     @@all << self
   end
